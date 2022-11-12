@@ -1,0 +1,17 @@
+{
+  "liveSassCompile.settings.autoprefix": [
+    "ie >= 6", //ie6以上
+    "firefox >= 8",
+    "chrome >= 24",
+    "Opera>=10"
+  ],
+  "liveSassCompile.settings.excludeList": ["/**/helpers.scss"],
+  "liveSassCompile.settings.includeItems": [],
+  "liveSassCompile.settings.formats": [
+    {
+      "extensionName": ".css",
+      "format": "expanded"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false
+}
